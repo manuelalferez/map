@@ -9,11 +9,12 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <script src="./src/index.js"></script>
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap&v=weekly"
       async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=API_KEY&v=weekly"
     ></script>
+    <script type="module" src="./src/index.js"></script>
     <title>Map</title>
   </head>
   <body>
